@@ -8,7 +8,7 @@ epurate <- function(toc = TRUE, code_folding = "hide", number_sections=TRUE) {
   template <- system.file("rmarkdown", "templates", "epurate" ,"resources", "template_epurate.html", package = "epuRate")
 
   # call the base html_document function
-  rmarkdown::html_document( theme= "lumen",
+  rmarkdown::html_document( theme= "sandstone",
                                template= template,
                                css= css,
                                toc= toc,
